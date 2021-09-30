@@ -8,8 +8,9 @@ export default defineConfig({
       formats: ["es"],
       fileName: (format) => `index.${format}.js`,
     },
-    rollupOptions: {
-      external: /^lit/,
-    },
+    // Because we try to use it independently, we don’t exclude lit.
+    // rollupOptions: {
+    //   external: /^lit/,
+    // },
   },
 });
