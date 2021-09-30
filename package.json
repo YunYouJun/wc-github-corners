@@ -1,6 +1,6 @@
 {
   "name": "wc-github-corners",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "dist/index.es.js",
   "exports": {
     ".": "./dist/index.es.js"
@@ -11,16 +11,26 @@
     "types"
   ],
   "scripts": {
+    "analyze": "custom-elements-manifest analyze --globs 'src/index.ts' --outdir dist",
     "dev": "vite",
-    "build": "tsc && vite build && npm run copy:demo",
+    "build": "tsc && vite build && npm run copy:demo && npm run docs:gen",
     "copy:demo": "cp demo/* dist/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docs:gen": "npm run analyze && esmo scripts/gen-docs.ts",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "lit": "^2.0.0"
   },
   "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.5.5",
+    "@custom-elements-manifest/to-markdown": "^0.0.13",
+    "@types/node": "^16.10.2",
+    "@yunyoujun/utils": "^0.1.4",
+    "esbuild-node-loader": "^0.4.1",
+    "esno": "^0.10.0",
     "typescript": "^4.3.2",
     "vite": "^2.6.1"
-  }
+  },
+  "customElements": "dist/custom-elements.json"
 }

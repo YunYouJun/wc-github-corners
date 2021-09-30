@@ -15,7 +15,7 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
   },
   "include": ["src/**/*.ts"],
   "exclude": []

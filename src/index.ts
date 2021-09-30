@@ -2,10 +2,7 @@ import { html, css, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
 /**
- * An example element.
- *
- * @slot - This element has a slot
- * @csspart button - The button
+ * A github corner.
  */
 @customElement("github-corners")
 export class GitHubCorners extends LitElement {
@@ -63,6 +60,9 @@ export class GitHubCorners extends LitElement {
   @property({ type: String })
   url = `https://github.com/${this.repo}`;
 
+  /**
+   * Hover title
+   */
   @property({ type: String })
   label = "View source on GitHub";
 
@@ -73,7 +73,7 @@ export class GitHubCorners extends LitElement {
   reverse = false;
 
   /**
-   * Reverse color and fill
+   * Position of github corners, 'left' or 'right'
    */
   @property({ type: String })
   position = "right";
