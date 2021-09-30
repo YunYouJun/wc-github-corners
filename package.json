@@ -1,0 +1,24 @@
+{
+  "name": "wc-github-corners",
+  "version": "0.0.1",
+  "main": "dist/index.es.js",
+  "exports": {
+    ".": "./dist/index.es.js"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.6.1"
+  }
+}
