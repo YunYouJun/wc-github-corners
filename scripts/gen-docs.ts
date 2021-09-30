@@ -7,6 +7,7 @@ import * as manifest from "../dist/custom-elements.json";
 
 import { markdown } from "@yunyoujun/utils";
 
+// https://github.com/nodejs/help/issues/2907
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ignore styles & methods

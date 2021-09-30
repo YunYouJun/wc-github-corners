@@ -37,6 +37,12 @@ export class GitHubCorners extends LitElement {
   `;
 
   /**
+   * target="_blank" for link
+   */
+  @property({ type: Boolean })
+  blank = false;
+
+  /**
    * Font color
    */
   @property({ type: String })
@@ -88,7 +94,12 @@ export class GitHubCorners extends LitElement {
 
   render() {
     return html`
-      <a href="${this.url}" class="github-corner" aria-label="${this.label}">
+      <a
+        href="${this.url}"
+        class="github-corner"
+        aria-label="${this.label}"
+        target="${this.blank ? "_blank" : null}""
+      >
         <svg
           width="80"
           height="80"

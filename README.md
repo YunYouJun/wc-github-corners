@@ -67,6 +67,7 @@ I successfully used it in a vue project - [char-dust](https://github.com/YunYouJ
 
 | Name       | Privacy | Type      | Default                                 | Description                                   | Inherited From |
 | ---------- | ------- | --------- | --------------------------------------- | --------------------------------------------- | -------------- |
+| `blank`    |         | `boolean` | `false`                                 | target="\_blank" for link                     |                |
 | `color`    |         | `string`  | `"#fff"`                                | Font color                                    |                |
 | `fill`     |         | `string`  | `"#151513"`                             | Fill color for github corners                 |                |
 | `repo`     |         | `string`  | `"YunYouJun/wc-github-corners"`         | Your GitHub Repo Name                         |                |
@@ -79,7 +80,6 @@ I successfully used it in a vue project - [char-dust](https://github.com/YunYouJ
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-
 <!-- wc-api:end -->
 
 I written it as a tutorial in my [Bilibili Live Room](https://live.bilibili.com/822719).

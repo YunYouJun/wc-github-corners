@@ -1,6 +1,6 @@
 {
   "name": "wc-github-corners",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.es.js",
   "exports": {
     ".": "./dist/index.es.js"
