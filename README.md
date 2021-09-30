@@ -1,6 +1,6 @@
 # wc-github-corners
 
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/YunYouJun/wc-github-corners)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/wc-github-corners)
 [![npm](https://img.shields.io/npm/v/wc-github-corners)](https://www.npmjs.com/package/wc-github-corners)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/wc-github-corners)
 
@@ -18,7 +18,7 @@ The final product is an ES module, and it can be used alone.
   <template>
     <script
       module
-      src="https://cdn.jsdelivr.net/npm/wc-github-corners@0.1.1"
+      src="https://cdn.jsdelivr.net/npm/wc-github-corners@0.1.2"
     ></script>
     <link rel="import" href="github-corners.html" />
     <github-corners></github-corners>
