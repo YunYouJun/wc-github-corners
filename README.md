@@ -1,5 +1,9 @@
 # wc-github-corners
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/YunYouJun/wc-github-corners)
+[![npm](https://img.shields.io/npm/v/wc-github-corners)](https://www.npmjs.com/package/wc-github-corners)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/wc-github-corners)
+
 A web component by [lit](https://github.com/lit/lit) for [GitHub Corners](https://github.com/tholman/github-corners).
 
 The final product is an ES module, and it can be used alone.
@@ -7,6 +11,21 @@ The final product is an ES module, and it can be used alone.
 > Anywhere like Vanilla JS / Vue / React / Angular / Svelte ...
 
 [Demo](https://www.yunyoujun.cn/wc-github-corners/)
+
+<!--
+```html
+<custom-element-demo>
+  <template>
+    <script
+      module
+      src="https://cdn.jsdelivr.net/npm/wc-github-corners@0.1.1"
+    ></script>
+    <link rel="import" href="github-corners.html" />
+    <github-corners></github-corners>
+  </template>
+</custom-element-demo>
+```
+-->
 
 ## Usage
 
@@ -80,6 +99,7 @@ I successfully used it in a vue project - [char-dust](https://github.com/YunYouJ
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- wc-api:end -->
 
 I written it as a tutorial in my [Bilibili Live Room](https://live.bilibili.com/822719).
