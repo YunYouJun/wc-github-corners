@@ -18,7 +18,7 @@ The final product is an ES module, and it can be used alone.
   <template>
     <script
       module
-      src="https://cdn.jsdelivr.net/npm/wc-github-corners@0.1.2"
+      src="https://cdn.jsdelivr.net/npm/wc-github-corners@0.1.3"
     ></script>
     <link rel="import" href="github-corners.html" />
     <github-corners></github-corners>

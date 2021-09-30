@@ -1,6 +1,6 @@
 {
   "name": "wc-github-corners",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/index.es.js",
   "exports": {
     ".": "./dist/index.es.js"
@@ -9,6 +9,12 @@
   "files": [
     "dist",
     "types"
+  ],
+  "keywords": [
+    "github",
+    "corners",
+    "webcomponents",
+    "lit"
   ],
   "scripts": {
     "analyze": "custom-elements-manifest analyze --globs 'src/index.ts' --outdir dist",
