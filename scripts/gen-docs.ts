@@ -1,14 +1,15 @@
 import * as fs from "fs";
 import * as path from "path";
 import { customElementsManifestToMarkdown } from "@custom-elements-manifest/to-markdown";
-import { fileURLToPath } from "url";
 
 import * as manifest from "../dist/custom-elements.json";
 
 import { markdown } from "@yunyoujun/utils";
 
+// ES Module
 // https://github.com/nodejs/help/issues/2907
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// import { fileURLToPath } from "url";
+// const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ignore styles & methods
 delete manifest.modules[0].exports;

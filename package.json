@@ -22,21 +22,21 @@
     "build": "tsc && vite build && npm run copy:demo && npm run docs:gen",
     "copy:demo": "cp demo/* dist/",
     "preview": "vite preview",
-    "docs:gen": "npm run analyze && esmo scripts/gen-docs.ts",
+    "docs:gen": "npm run analyze && esno scripts/gen-docs.ts",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "lit": "^2.0.0"
+    "lit": "^2.0.2"
   },
   "devDependencies": {
-    "@custom-elements-manifest/analyzer": "^0.5.5",
-    "@custom-elements-manifest/to-markdown": "^0.0.13",
-    "@types/node": "^16.10.2",
+    "@custom-elements-manifest/analyzer": "^0.5.7",
+    "@custom-elements-manifest/to-markdown": "^0.1.0",
+    "@types/node": "^16.11.7",
     "@yunyoujun/utils": "^0.1.4",
-    "esbuild-node-loader": "^0.4.1",
-    "esno": "^0.10.0",
-    "typescript": "^4.3.2",
-    "vite": "^2.6.1"
+    "esbuild-node-loader": "^0.6.1",
+    "esno": "^0.12.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.14"
   },
   "customElements": "dist/custom-elements.json",
   "repository": {
