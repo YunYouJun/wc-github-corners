@@ -3,6 +3,7 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/wc-github-corners)
 [![npm](https://img.shields.io/npm/v/wc-github-corners)](https://www.npmjs.com/package/wc-github-corners)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/wc-github-corners)
+![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/wc-github-corners)
 
 > [从零开始写一个 Web Component - GitHub Corners | 云游君的小站](https://www.yunyoujun.cn/posts/how-to-write-a-web-component/)
 
@@ -20,7 +21,7 @@ The final product is an ES module, and it can be used alone.
   <template>
     <script
       module
-      src="https://cdn.jsdelivr.net/npm/wc-github-corners@0.1.3"
+      src="https://cdn.jsdelivr.net/npm/wc-github-corners@latest"
     ></script>
     <link rel="import" href="github-corners.html" />
     <github-corners></github-corners>
@@ -43,7 +44,7 @@ See [demo/index.html](./demo/index.html).
 <!-- cdn -->
 <script
   type="module"
-  src="https://cdn.jsdelivr.net/npm/wc-github-corners"
+  src="https://cdn.jsdelivr.net/npm/wc-github-corners@latest"
 ></script>
 
 <github-corners></github-corners>
@@ -101,6 +102,7 @@ I successfully used it in a vue project - [char-dust](https://github.com/YunYouJ
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- wc-api:end -->
 
 I written it as a tutorial in my [Bilibili Live Room](https://live.bilibili.com/822719).
