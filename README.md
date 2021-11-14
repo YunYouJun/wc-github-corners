@@ -107,3 +107,31 @@ I successfully used it in a vue project - [char-dust](https://github.com/YunYouJ
 I written it as a tutorial in my [Bilibili Live Room](https://live.bilibili.com/822719).
 
 Thanks to my fans and [sponsors](https://sponsors.yunyoujun.cn/).
+
+## FAQ
+
+### [Vue warn]: Failed to resolve component: github-corners
+
+If you write it in vue template, you should make sure to exclude it from component resolution via `compilerOptions.isCustomElement`.
+
+In vite:
+
+```ts
+import { defineConfig } from "vite";
+import Vue from "@vitejs/plugin-vue";
+
+export default defineConfig({
+  plugins: [
+    Vue({
+      include: [/\.vue$/, /\.md$/],
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => {
+            return ["github-corners"].includes(tag);
+          },
+        },
+      },
+    }),
+  ],
+});
+```

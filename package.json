@@ -33,7 +33,6 @@
     "@custom-elements-manifest/to-markdown": "^0.1.0",
     "@types/node": "^16.11.7",
     "@yunyoujun/utils": "^0.1.4",
-    "esbuild-node-loader": "^0.6.1",
     "esno": "^0.12.0",
     "typescript": "^4.4.4",
     "vite": "^2.6.14"
