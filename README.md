@@ -135,3 +135,22 @@ export default defineConfig({
   ],
 });
 ```
+
+### Want to use by CDN in vue?
+
+Try [@vueuse/head](https://github.com/vueuse/head).
+
+```html
+<script setup lang="ts">
+  import { useHead } from "@vueuse/head";
+
+  useHead({
+    script: [
+      {
+        src: "https://cdn.jsdelivr.net/npm/wc-github-corners@latest",
+        type: "module",
+      },
+    ],
+  });
+</script>
+```
