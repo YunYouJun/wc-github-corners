@@ -8,8 +8,8 @@ import { markdown } from "@yunyoujun/utils";
 
 // ES Module
 // https://github.com/nodejs/help/issues/2907
-// import { fileURLToPath } from "url";
-// const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import { fileURLToPath } from "url";
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ignore styles & methods
 delete manifest.modules[0].exports;

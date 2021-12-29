@@ -23,7 +23,7 @@
     "build": "tsc && vite build && npm run copy:demo && npm run docs:gen",
     "copy:demo": "cp demo/* dist/",
     "preview": "vite preview",
-    "docs:gen": "npm run analyze && esno scripts/gen-docs.ts",
+    "docs:gen": "npm run analyze && esmo scripts/gen-docs.ts",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
