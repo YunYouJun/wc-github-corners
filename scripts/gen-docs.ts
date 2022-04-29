@@ -9,6 +9,7 @@ import { markdown } from "@yunyoujun/utils";
 // ES Module
 // https://github.com/nodejs/help/issues/2907
 import { fileURLToPath } from "url";
+// @ts-expect-error es module
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ignore styles & methods

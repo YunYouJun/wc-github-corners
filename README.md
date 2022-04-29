@@ -154,3 +154,11 @@ Try [@vueuse/head](https://github.com/vueuse/head).
   });
 </script>
 ```
+
+## [Sponsors](https://sponsors.yunyoujun.cn)
+
+<p align="center">
+  <a href="https://sponsors.yunyoujun.cn">
+    <img src='https://cdn.jsdelivr.net/gh/YunYouJun/sponsors/public/sponsors.svg'/>
+  </a>
+</p>
