@@ -54,7 +54,7 @@ See [demo/index.html](./demo/index.html).
 
 ```ts
 // main.ts
-import "wc-github-corners";
+import 'wc-github-corners'
 ```
 
 ```html
@@ -117,8 +117,8 @@ If you write it in vue template, you should make sure to exclude it from compone
 In vite:
 
 ```ts
-import { defineConfig } from "vite";
-import Vue from "@vitejs/plugin-vue";
+import { defineConfig } from 'vite'
+import Vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [
@@ -127,13 +127,13 @@ export default defineConfig({
       template: {
         compilerOptions: {
           isCustomElement: (tag) => {
-            return ["github-corners"].includes(tag);
+            return ['github-corners'].includes(tag)
           },
         },
       },
     }),
   ],
-});
+})
 ```
 
 ### Want to use by CDN in vue?
