@@ -1,32 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="https://github.githubassets.com/favicons/favicon.svg"
-    />
-    <link
-      rel="mask-icon"
-      href="https://github.githubassets.com/pinned-octocat.svg"
-      color="#000000"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Corners for Web Components</title>
-    <script type="module" src="/src/index.ts"></script>
-  </head>
-  <body>
-    <github-corners repo="YunYouJun/wc-github-corners"></github-corners>
-    <github-corners
-      blank
-      fill="#0078e7"
-      position="left"
-      url="https://github.com/YunYouJun"
-    ></github-corners>
-    <a
-      href="https://github.com/YunYouJun/wc-github-corners"
-      style="
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" />
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Corners for Web Components</title>
+  <script type="module" src="/src/index.ts"></script>
+</head>
+
+<body>
+  <github-corners repo="YunYouJun/wc-github-corners"></github-corners>
+  <github-corners blank fill="#0078e7" position="left" url="https://github.com/YunYouJun"></github-corners>
+  <a href="https://github.com/YunYouJun/wc-github-corners" style="
         width: 100%;
         display: block;
         text-align: center;
@@ -35,10 +22,14 @@
         margin-top: 5rem;
         text-decoration: none;
         color: #0078e7;
-      "
-      target="_blank"
-    >
-      wc-github-corners
-    </a>
-  </body>
+      " target="_blank">
+    wc-github-corners
+  </a>
+  <p style="text-align: center;">
+    A web component for <a style="color: #0078e7;" href="https://github.com/tholman/github-corners"
+      target="_blank">github corners</a>.
+    Can be used anywhere.
+  </p>
+</body>
+
 </html>
