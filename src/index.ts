@@ -84,7 +84,7 @@ export class GitHubCorners extends LitElement {
   @property({ type: String })
     position = 'right'
 
-  getPositionStyles(position: String): string {
+  getPositionStyles(position: string): string {
     if (position === 'left')
       return 'left:0;transform: scale(-1, 1);'
 
