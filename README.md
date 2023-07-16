@@ -40,11 +40,14 @@ npm i wc-github-corners
 
 See [demo/index.html](./demo/index.html).
 
+- jsdelivr: `https://cdn.jsdelivr.net/npm/wc-github-corners@latest`
+- unpkg: `https://www.unpkg.com/wc-github-corners@latest`
+
 ```html
 <!-- cdn -->
 <script
   type="module"
-  src="https://cdn.jsdelivr.net/npm/wc-github-corners@latest"
+  src="https://www.unpkg.com/wc-github-corners@latest"
 ></script>
 
 <github-corners></github-corners>
