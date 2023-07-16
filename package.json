@@ -2,21 +2,22 @@
   "name": "wc-github-corners",
   "type": "module",
   "version": "0.1.5",
+  "packageManager": "pnpm@8.6.7",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YunYouJun/wc-github-corners"
+  },
   "keywords": [
     "github",
     "corners",
     "webcomponents",
     "lit"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/YunYouJun/wc-github-corners"
-  },
-  "main": "dist/index.es.js",
-  "types": "types/index.d.ts",
   "exports": {
     ".": "./dist/index.es.js"
   },
+  "main": "dist/index.es.js",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
     "types"
@@ -30,7 +31,8 @@
     "docs:gen": "npm run analyze && tsx scripts/gen-docs.ts",
     "prepublishOnly": "npm run build",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "release": "bumpp --commit --push --tag"
   },
   "dependencies": {
     "lit": "^2.7.6"
@@ -41,6 +43,7 @@
     "@custom-elements-manifest/to-markdown": "^0.1.0",
     "@types/node": "^20.4.2",
     "@yunyoujun/utils": "^0.3.5",
+    "bumpp": "^9.1.1",
     "eslint": "^8.45.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
