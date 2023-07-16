@@ -3,7 +3,6 @@
     "module": "esnext",
     "lib": ["es2017", "dom", "dom.iterable"],
     "declaration": true,
-    "emitDeclarationOnly": true,
     "outDir": "./types",
     "rootDir": "./src",
     "strict": true,

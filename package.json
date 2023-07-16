@@ -32,7 +32,8 @@
     "prepublishOnly": "npm run build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "bumpp --commit --push --tag"
+    "release": "bumpp --commit --push --tag",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "lit": "^2.7.6"
