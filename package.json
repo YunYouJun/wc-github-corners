@@ -2,7 +2,7 @@
   "name": "wc-github-corners",
   "type": "module",
   "version": "0.1.6",
-  "packageManager": "pnpm@8.6.7",
+  "packageManager": "pnpm@8.15.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/YunYouJun/wc-github-corners"
@@ -36,19 +36,19 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "lit": "^2.7.6"
+    "lit": "^2.8.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config-ts": "^0.39.8",
-    "@custom-elements-manifest/analyzer": "^0.8.3",
+    "@antfu/eslint-config-ts": "^0.43.1",
+    "@custom-elements-manifest/analyzer": "^0.8.4",
     "@custom-elements-manifest/to-markdown": "^0.1.0",
-    "@types/node": "^20.4.2",
+    "@types/node": "^20.11.16",
     "@yunyoujun/utils": "^0.3.5",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.45.0",
-    "tsx": "^3.12.7",
-    "typescript": "^5.1.6",
-    "vite": "^4.4.4"
+    "bumpp": "^9.3.0",
+    "eslint": "^8.56.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.3.3",
+    "vite": "^4.5.2"
   },
   "customElements": "dist/custom-elements.json"
 }

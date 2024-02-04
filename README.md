@@ -63,6 +63,7 @@ import 'wc-github-corners'
 ```html
 <!-- index.html -->
 <github-corners></github-corners>
+<github-corners repo="YunYouJun/wc-github-corners" blank />
 ```
 
 I successfully used it in a vue project - [char-dust](https://github.com/YunYouJun/char-dust).
